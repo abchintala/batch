@@ -1,1 +1,0 @@
-md kona-projects && cd kona-projects && for %%x in (kona-member kona-identity kona-organization kona-promotion kona-program kona-web) do git clone https://github.com/brierley/%%x.git -b devopslocal && cd kona-web && docker-compose up -d && start chrome http://localhost:8131/
